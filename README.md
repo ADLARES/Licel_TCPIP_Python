@@ -42,3 +42,11 @@ python3 mpush.py --ip <ip> --port <port>  --acq <num acquis> --shots <num shots>
 ```
 
 `mpush_example.py` demonstrate the use of mpush mode to read multiple datasets from multiple transient recorders, at the same time. 
+
+## Install as module:
+#### Execute the following: 
+```shell
+pip install build
+python -m build
+pip install -e .
+```
